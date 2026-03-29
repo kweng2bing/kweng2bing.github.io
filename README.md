@@ -5,7 +5,7 @@ GitHub Page
 TypeScript, Vite, React
 
 ## About the Project
-This is my personal website project
+This is my personal website project.
 
 ## Getting Started
 
@@ -18,9 +18,13 @@ This is my personal website project
   cd kweng2bing.github.io
   ```
 2. Install dependencies
-  `npm install`
+  ```
+  npm install
+  ```
 3. Run code
-  `npm run dev`
+  ```
+  npm run dev
+  ```
 4. Open local host
 
 
