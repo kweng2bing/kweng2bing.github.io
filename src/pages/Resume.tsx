@@ -25,13 +25,14 @@ interface Professional_Experience{
 
 const professional_experiences: Professional_Experience[] = [
   {
-    company_name: "Horizon Media",
-    position: "Search Engine Marketing Intern",
-    date: "June 2024 - August 2024",
+    company_name: "NYC Department of Environmental Protection",
+    position: "Backend Engineer Intern",
+    date: "June 2025 - August 2025",
     achievements: [
-      "Conducted daily optimization of Google Ads and Bing Ads campaigns, leveraging KPI-driven insights to uphold budget discipline, enhance conversion performance, and proactively mitigate fluctuations in campaign efficiency",
-      "Examined over 1,000 search keywords daily from Google Ads and Bing Ads to identify high-value search terms and negative search terms, optimizing paid search campaigns for superior targeting and increasing click-through rates",
-      "Pinpointed emerging trends in anime-related advertisements and delivered a company-wide presentation to over 2000 people, detailing strategic advantages and actionable steps for Horizon Media to capitalize on anime-related marketing strategies", ]
+      "Programmed and implemented REST API integration to consolidate over 20K user data from Learning Management System, maintaining consistency, data integrity and improving operational efficiency by reducing weeks of manual data entry to hours.",
+      "Architected a scalable infrastructure and modular codebase that streamlined developer onboarding and significantly accelerated future development cycles, laying the foundation for rapid feature expansion and long-term maintainability.",
+      "Enhanced API efficiency and data handling logic, reducing redundant calls, resulting a 50 % boost in data processing speed.",
+    ]
   },
   {
     company_name: "Horizon Media",

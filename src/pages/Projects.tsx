@@ -13,9 +13,6 @@
  * - Each project card is rendered using `.map()`, so the layout
  *   scales automatically as you add more items.
  * 
- * What to customize:
- * - Replace the sample projects with your real work.
- * - Add or remove fields (e.g., add an image, a "Live Demo" link, etc.).
  */
 
 interface Project {
@@ -29,9 +26,9 @@ const projects: Project[] = [
   {
     title: "GitHub Portfolio",
     description:
-      "A brief description of what this project does and what problem it solves. Keep it to 1–2 sentences.",
+      "GitHub Portfolio Source Code.",
     tags: ["React", "TypeScript", "Tailwind"],
-    link: "https://github.com/yourusername/project-one",
+    link: "https://github.com/kweng2bing/kweng2bing.github.io",
   },
   {
     title: "Author Style LLM Fine Tuning Project",
@@ -47,6 +44,13 @@ const projects: Project[] = [
     tags: ["AirSim", " Flask", "Unreal Engine"],
     link: "https://github.com/ezhengofficial/uav-map",
   },
+  {
+    title: "Computer Networking Communication System Project",
+    description:
+      "Engineered a robust computer network communication system in C++ that simulates key networking protocols, including TCP and UDP, to facilitate reliable data transmission between multiple clients and a server. Designed a web server and proxy server to transfer files, incorporating socket programming for reliable communication and multithreading for efficient handling of multiple client requests. ",
+    tags: ["C++", "Socket Programming", "Multithreading"],
+    link: "https://github.com/kweng2bing/cs428_computer_networks/tree/main/projs/submit3"
+  }
 ];
 
 const Projects = () => {
